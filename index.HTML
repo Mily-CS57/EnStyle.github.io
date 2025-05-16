@@ -1,0 +1,155 @@
+<html>
+<link rel="stylesheet" type="text/css" href="EnStyle.CSS">
+
+<!--Website Main Page-->
+<div class = "topBar"> 
+    <span class = "menu" onclick = "openBar()">☰</span>
+    <img style = "width:50px; margin-left:35%;" src = "Logo.png"> 
+    <p class = "Brand"> E n S t y l e</p>
+</div>
+
+<!--Side Bar-->
+<div id = "bar" class = "sideBar">
+    <p class = "Brand">EnStyle</p>
+    <a href = javascript:void(0) class = "close" onclick = "closeBar()" style = "text-decoration: none;"> ←</a>
+    <a href = "index.HTML"> Home</a>
+    <a href = "About.HTML"> About Us</a>
+    <a href = "Goals.HTML"> Company Goals</a>
+    <a href = "Contacts.HTML"> Contact Us!</a>
+    <a href = "Questions.HTML"> FAQs</a>
+</div>
+
+<div class = "white">
+    <div class ="gradient" >
+         <p style = "letter-spacing:3px">Helping&nbspYou&nbspFind&nbspThe&nbspClothes&nbspThat&nbspFit</p>
+         <p> ↓</p>
+    </div>
+</div>
+
+<div class = "information">
+    EnStyle is a new program dedicated to providing efficient <br>
+    clothing guides across shopping platforms. We hope to make the shopping experience <br>
+    easier and quicker by providing size recommendations based on your provided measurements. <br>
+    With an intuitive interface, EnStyle helps you buy the latest trends, exclusive deals, and <br>
+    wardrobe essentials without having to worry about wrong sizes. Partnering with a wide <br>
+    variety of retailers, we offer access to our smart matching algorithms that will save you time <br>
+    by automatically proving you with a size for a specific brand of clothing. <br>
+    Join EnStyle today and transform the way you shop. Your next favorite outfit is just a click away! <br>
+    For more information, read our About Us! 
+</div>
+
+<div class = "blue" id = "formSection">
+    <img style = "float:left;width:400px; margin-left:5%;" src = "temp.png"> 
+    <div>
+        <div class = "headDrop">
+            <div class = "measure">Measurements</div>
+            <hr class = "hr">
+        </div>
+        <div class = "dropDowns">
+            <p>Gender *</p>
+                <div class = "options">
+                    <select style = "width: 400px;" name = "Gender" id = "Gender">
+                        <option value = "Choose gender">Choose gender</option>
+                        <option value = "Female">Female</option>
+                        <option value = "Male">Male</option>
+                        <option value = "Other">Other</option>
+                    </select>
+                </div>
+            <p style = " display: inline-flex; margin-top: 10%;">Height *</p>  
+            <p style = "display: inline-flex; margin-left: 38%;">Hip *</p> 
+                <div class = "options">
+                    <select style = "width: 190px;" name = "Height" id = "Height">
+                        <option value = "Choose height">Choose Height</option>
+                        <option value = "3'3">3'3"</option>
+                        <option value = "3'4">3'4"</option>
+                        <option value = "3'5">3'5"</option>
+                        <option value = "3'6">3'6"</option>
+                        <option value = "3'7">3'7"</option>
+                        <option value = "3'8">3'8"</option>
+                        <option value = "3'9">3'9"</option>
+                        <option value = "4'0">4'0"</option>
+                        <option value = "4'1">4'1"</option>
+                        <option value = "4'2">4'2"</option>
+                        <option value = "4'3">4'3"</option>
+                        <option value = "4'4">4'4"</option>
+                        <option value = "4'5">4'5"</option>
+                        <option value = "4'6">4'6"</option>
+                        <option value = "4'7">4'7"</option>
+                        <option value = "4'8">4'8"</option>
+                        <option value = "4'9">4'9"</option>
+                        <option value = "4'10">4'10"</option>
+                        <option value = "4'11">4'11"</option>
+                        <option value = "5'0">5'0"</option>
+                        <option value = "5'1">5'1"</option>
+                        <option value = "5'2">5'2"</option>
+                        <option value = "5'3">5'3"</option>
+                        <option value = "5'4">5'4"</option>
+                        <option value = "5'5">5'5"</option>
+                        <option value = "5'6">5'6"</option>
+                        <option value = "5'7">5'7"</option>
+                        <option value = "5'8">5'8"</option>
+                        <option value = "5'9">5'9"</option>
+                        <option value = "5'10">5'10"</option>
+                        <option value = "5'11">5'11"</option>
+                        <option value = "6'0">6'0"</option>
+                        <option value = "6'1">6'1"</option>
+                        <option value = "6'2">6'2"</option>
+                        <option value = "6'3">6'3"</option>
+                        <option value = "6'4">6'4"</option>
+                        <option value = "6'5">6'5"</option>
+                        <option value = "6'6">6'6"</option>
+                        <option value = "6'7">6'7"</option>
+                        <option value = "6'8">6'8"</option>
+                        <option value = "6'9">6'9"</option>
+                        <option value = "6'10">6'10"</option>
+                        <option value = "6'11">6'11"</option>
+                    </select>
+                    <input style = "width: 190px;" type = "text" id = "Hip" name = "Hip">
+                    <p style = "margin-left: 52%; margin-top: 0.5%; color:rgb(211, 211, 212); font-style: italic;">(inches)</p>
+                </div>
+            <p style = "display: inline-flex; margin-top: 2%;">Waist *</p>     
+            <p style = "display: inline-flex; margin-left: 40%;" >Bust *</p>
+            <div class = "options">
+                <input style = "width: 190px; margin-left: 0;" type = "text" id = "Waist" name = "Waist"> 
+                <input style = "width: 190px;" type = "text" id = "Bust" name = "Bust">
+                <br>
+                <p style = " display:inline-flex; margin-top: 0.5%; color:rgb(211, 211, 212); font-style: italic;">(inches)</p>
+                <p style = " display:inline-flex; margin-left: 40%; margin-top: 0.5%; color:rgb(211, 211, 212); font-style: italic;" >(inches)</p>
+            </div>
+
+            <input type = "button" onclick = "submission()" value = "Submit">
+        </div>
+    </div>
+    
+</div>
+
+<!--Opening and Closing side bar-->
+<script>
+    let original;
+    window.onload = function(){
+        original = document.getElementById("formSection").innerHTML;
+    };
+    function openBar(){
+        document.getElementById("bar").style.width = "250px";
+    }
+    function closeBar(){
+        document.getElementById("bar").style.width = "0px";
+    }
+    function submission(){
+        document.getElementById("formSection").innerHTML = `
+            <img style = "float:left;width:400px; margin-left:5%;" src = "temp.png"> 
+            <div class = "congrats">
+                <h2> Thank you for your submission! </h2>
+                <hr>
+                <p> Please note: this is just a prototype version of Enstyle.</p>
+                <p> Stay Tuned for the full version!</p>
+                <input type = "button" onclick = "reset()" value = "GoBack">
+            </div>
+        `;
+    }
+    function reset(){
+        document.getElementById("formSection").innerHTML = original;
+    }
+</script>
+
+</html>

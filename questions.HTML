@@ -1,0 +1,59 @@
+<html>
+<link rel="stylesheet" type="text/css" href="EnStyle.CSS">
+
+<!--Website Main Page-->
+<div class = "topBar"> 
+    <span class = "menu" onclick = "openBar()">☰</span>
+    <img style = "width:50px; margin-left:35%;" src = "Logo.png"> 
+    <p class = "Brand">E n S t y l e</p>
+</div>
+
+<!--Side Bar-->
+<div id = "bar" class = "sideBar">
+    <p class = "Brand">EnStyle</p>
+    <a href = javascript:void(0) class = "close" onclick = "closeBar()" style = "text-decoration: none;"> ←</a>
+    <a href = "index.HTML"> Home</a>
+    <a href = "About.HTML"> About Us</a>
+    <a href = "Goals.HTML"> Company Goals</a>
+    <a href = "Contacts.HTML"> Contact Us!</a>
+    <a href = "Questions.HTML"> FAQs</a>
+</div>
+
+
+<div class = "FAQ">
+    <p style="letter-spacing:3px; padding-left: 30%;">Frequently Asked Questions:</p>
+
+    <p> <b>1. How does the app determine my size?</b></p>
+    <p> &nbsp &nbsp The app calculates your size based on the measurements you provide, such as chest, waist, and hip<br>&nbsp &nbsp measurements, and compares them to the size charts of different brands. We use machine learning to<br>&nbsp &nbsp refine size recommendations for accuracy.</p>
+    <p> <b>2. Do I need to enter my measurements every time I shop?</b></p>
+    <p> &nbsp &nbsp No! You can save your measurements in the app for future use. This allows a quicker and more<br>&nbsp &nbsp convenient shopping experience.</p>
+    <p> <b>3. Can I trust the size recommendations?</b></p>
+    <p> &nbsp &nbsp Yes! Our app continuously improves the accuracy of size recommendations by learning from user<br>&nbsp &nbsp feedback and adjusting to specific brand sizing nuances.</p>
+    <p> <b>4. How do I take my measurements correctly?</b></p>
+    <p> &nbsp &nbsp The app provides simple step-by-step instructions on how to measure yourself accurately. You can <br>&nbsp &nbsp also find links to video tutorials in the app if you need extra help.</p>
+    <p> <b>5. Does the app cover all brands?</b></p>
+    <p> &nbsp &nbsp We are continuously expanding our database of brands. While we already cover many popular ones, <br>&nbsp &nbsp we're working hard to include even more to ensure a wide variety of options.</p>
+    <p> <b>6. Is my personal data, like my measurements, safe?</b></p>
+    <p> &nbsp &nbsp Absolutely. We prioritize your privacy and store your data securely, following all applicable privacy <br>&nbsp &nbsp regulations.</p>
+    <p> <b>7. Can I adjust the size recommendation if it feel off?</b></p>
+    <p> &nbsp &nbsp Yes! You can provide feedback on the recommendations, and the app will adapt to offer even better <br>&nbsp &nbsp results in the future on your input.</p>
+    <p> <b>8. How can I update my measurements?</b></p>
+    <p> &nbsp &nbsp You can easily update your measurements by going to your profile settings in the app at any time.</p>
+    <p> <b>9. Will the app work for all type of clothing?</b></p>
+    <p> &nbsp &nbsp The app is currently to designed to work for clothing items such as tops and bottoms.</p>
+    <p> <b>10. Can I use the app without creating an account?</b></p>
+    <p> &nbsp &nbsp You can browse the app and view recommendations without creating an account, but to save your<br>&nbsp &nbsp measurements and preferences, you'll need to sign up.</p>
+</div>
+
+
+<!--Opening and Closing side bar-->
+<script>
+    function openBar(){
+        document.getElementById("bar").style.width = "250px";
+    }
+    function closeBar(){
+        document.getElementById("bar").style.width = "0px";
+    }
+</script>
+
+</html>

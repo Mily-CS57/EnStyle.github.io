@@ -1,0 +1,50 @@
+<html>
+<link rel="stylesheet" type="text/css" href="EnStyle.CSS">
+
+<!--Website Main Page-->
+<div class = "topBar"> 
+    <span class = "menu" onclick = "openBar()">☰</span>
+    <img style = "width:50px; margin-left:35%;" src = "Logo.png"> 
+    <p class = "Brand">E N S t y l e</p>
+</div>
+
+<!--Side Bar-->
+<div id = "bar" class = "sideBar">
+    <p class = "Brand">EnStyle</p>
+    <a href = javascript:void(0) class = "close" onclick = "closeBar()" style = "text-decoration: none;"> ←</a>
+    <a href = "index.HTML"> Home</a>
+    <a href = "About.HTML"> About Us</a>
+    <a href = "Goals.HTML"> Company Goals</a>
+    <a href = "Contacts.HTML"> Contact Us!</a>
+    <a href = "Questions.HTML"> FAQs</a>
+</div>
+
+<div class = "white">
+    
+    <div class ="gradient" >
+        <div class = "border">
+            <p style = "letter-spacing:3px"> <u>Co-Founders:</u></p>
+            <p style = "letter-spacing:3px"> Siri Sajja - sajjas2@tcnj.edu</p>
+            <p style = "letter-spacing:3px"> Milagros Villalba - villalm1@tcnj.edu</p>
+            <br>
+            <p style = "letter-spacing:3px"><u>Contact Information:</u></p>
+            <p style = "letter-spacing:3px"> InSTYLE903@gmail.com</p>
+            <p style = "letter-spacing:3px"> (973)816-0970</p>
+            <p style = "letter-spacing:3px"> (732)770-8055</p>
+            <br>
+            <p style = "letter-spacing:3px"><u>Office Location: TBD</u></p>
+        </div>
+    </div>
+</div>
+
+<!--Opening and Closing side bar-->
+<script>
+    function openBar(){
+        document.getElementById("bar").style.width = "250px";
+    }
+    function closeBar(){
+        document.getElementById("bar").style.width = "0px";
+    }
+</script>
+
+</html>

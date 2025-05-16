@@ -1,0 +1,45 @@
+<html>
+<link rel="stylesheet" type="text/css" href="EnStyle.CSS">
+
+<!--Website Main Page-->
+<div class = "topBar"> 
+    <span class = "menu" onclick = "openBar()">☰</span>
+    <img style = "width:50px; margin-left:35%;" src = "Logo.png"> 
+    <p class = "Brand">E N S t y l e</p>
+</div>
+
+<!--Side Bar-->
+<div id = "bar" class = "sideBar">
+    <p class = "Brand">EnStyle</p>
+    <a href = javascript:void(0) class = "close" onclick = "closeBar()" style = "text-decoration: none;"> ←</a>
+    <a href = "index.HTML"> Home</a>
+    <a href = "about.HTML"> About Us</a>
+    <a href = "goals.HTML"> Company Goals</a>
+    <a href = "contacts.HTML"> Contact Us!</a>
+    <a href = "questions.HTML"> FAQs</a>
+</div>
+
+<div class = "white">
+    <div class ="gradientGoals" >
+         <p style = "letter-spacing:3px; padding-left: 30%;">Our Goals/Objectives</p>
+         <p>
+          1. Provide accurate size recommendations for users by using their unique measurements <br>&nbsp &nbsp tailored to each brand's sizing chart.<br><br>
+          2. Simplify online shopping by reducing returns due to sizing issues, enhancing customer<br>&nbsp &nbsp satisfaction. <br><br>
+          3. Continuously expand and integrate with a wide range of brands to offer diverse size <br>&nbsp &nbsp recommendations for different clothing lines. <br><br>
+          4. Enhance user experience through easy-to-use features, such as saving measurements, tracking <br>&nbsp &nbsp size preferences, and receiving style suggestions. <br><br>
+          5. Use machine learning and user feedback to improve size accuracy and adapt to brand-specific <br>&nbsp &nbsp sizing trends. <br><br>
+          6. Ensure users' personal data, including measurements, is securely stored and respected in <br>&nbsp &nbsp compliance with privacy laws.</p>
+    </div>
+</div>
+
+<!--Opening and Closing side bar-->
+<script>
+    function openBar(){
+        document.getElementById("bar").style.width = "250px";
+    }
+    function closeBar(){
+        document.getElementById("bar").style.width = "0px";
+    }
+</script>
+
+</html>

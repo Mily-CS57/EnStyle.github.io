@@ -1,0 +1,60 @@
+<html>
+<link rel="stylesheet" type="text/css" href="EnStyle.CSS">
+
+<!--Website Main Page-->
+<div class = "topBar"> 
+    <span class = "menu" onclick = "openBar()">☰</span>
+    <img style = "width:50px; margin-left:35%;" src = "Logo.png"> 
+    <p class = "Brand">E n S t y l e</p>
+</div>
+
+<!--Side Bar-->
+<div id = "bar" class = "sideBar">
+    <p class = "Brand">EnStyle</p>
+    <a href = javascript:void(0) class = "close" onclick = "closeBar()" style = "text-decoration: none;"> ←</a>
+    <a href = "index.HTML"> Home</a>
+    <a href = "About.HTML"> About Us</a>
+    <a href = "Goals.HTML"> Company Goals</a>
+    <a href = "Contacts.HTML"> Contact Us!</a>
+    <a href = "Questions.HTML"> FAQs</a>
+</div>
+
+<div class = "white">
+    <div class ="gradientAbout" >
+         <p style = "letter-spacing:3px">ABOUT US</p>
+         <div>
+            EnStyle is a new program dedicated to providing efficient clothing guides across <br>
+            shopping platforms. We hope to make the shopping experience easier and quicker by curating<br>
+            personalized size recommendations based on your style preferences, body type, and <br>
+            measurements. With an intuitive interface and advanced filtering options, EnStyle helps <br>
+            you discover the latest trends, exclusive deals, and wardrobe essentials all in your size.<br>
+            <br>
+            By partnering with a wide variety of retailers, we offer access to an extensive range <br>
+            of clothing, shoes, and accessories, ensuring there's something for every taste and <br>
+            occasion. Whether you're looking for a casual outfit for the weekend, a professional <br>
+            wardrobe update, or something special for a night out, EnStyle's personalized guides <br>
+            will help you find exactly the size you need—without the endless measurements and sizing. <br>
+            <br>
+            Additionally, EnStyle provides expert sizing advice using our analytical algorithms, <br>
+            so you can shop with confidence, knowing you'll look your best. Our smart search <br>
+            algorithms save you time by bringing you the most relevant size options, while the <br>
+            easy-to-navigate design ensures a seamless shopping experience from start to finish.<br>
+            <br>
+            Join EnStyle today and transform the way you shop. Your next favorite outfit is just a click away!
+         </div>
+    </div>
+</div>
+
+
+
+<!--Opening and Closing side bar-->
+<script>
+    function openBar(){
+        document.getElementById("bar").style.width = "250px";
+    }
+    function closeBar(){
+        document.getElementById("bar").style.width = "0px";
+    }
+</script>
+
+</html>
