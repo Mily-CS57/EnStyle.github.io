@@ -24,7 +24,7 @@
     margin-left: 5%;
 }
 
-/*copied from w3 schools*/
+/*w3 schools*/
 .sideBar{
     border: 3px rgb(255, 255, 255);
     height: 100%;
@@ -38,7 +38,7 @@
     transition: 0.3s;
 }
 
-/*copied from w3schools*/
+/*w3schools*/
 .sideBar a{
     color:white;
     font-size: 20px;
@@ -47,7 +47,7 @@
     transition: 0.1s;
 }
 
-/*copied from w3schools*/
+/*w3schools*/
 .sideBar .close{
     position: absolute;
     top: 0;
